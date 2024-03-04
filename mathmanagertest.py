@@ -12,4 +12,4 @@ class mathmanagertest(unittest.TestCase):
 
 	def testMultiply(self):
 		math = mathmanager()
-		self.assertEqual(math.multiply(0, 3), 1)
+		self.assertEqual(math.multiply(0, 3), 0)
