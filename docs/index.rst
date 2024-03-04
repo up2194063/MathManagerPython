@@ -1,1 +1,4 @@
 .. toctree::
+  addition
+  subtraction
+  multiplication
