@@ -24,7 +24,7 @@ class mathmanagertest(unittest.TestCase):
 		self.assertEqual(math.income_tax_calculator(125140), 50056)
 		self.assertEqual(math.income_tax_calculator(125141), 56313.45)
 
-	def test_income_tax_calculator(self):
+	def test_degree_classification(self):
 		math = mathmanager()
 		self.assertEqual(math.degree_classification(39, 39, 39, 39), "Fail")
 		self.assertEqual(math.degree_classification(40, 40, 40, 40), "3rd")
