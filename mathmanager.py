@@ -18,7 +18,7 @@ class mathmanager:
 			tax_multiplier = 0.4
 		else:
 			tax_multiplier = 0.45
-		return tax_multiplier * income
+		return round((tax_multiplier * income), 2)
 	
 	def degree_classification(self, m1, m2, m3, m4):
 		avg = (m1 + m2 + m3 + m4) / 4
